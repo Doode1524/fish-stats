@@ -10,7 +10,7 @@ PART 3: Fetch the data from our backend and display it on our frontend.
 TO SET UP JSON SERVER:
 
 - Install node package manager by typing `npm install -g npm` in your terminal.
-- Install JSON server by typing `npm install json-server` in your terminal.
+- Install JSON server by typing `npm install -g json-server` in your terminal.
 - Create a file called `db.json` in the root directory of your project.
 - Add the JSON viewer chrome extension by visiting https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US
 - To run JSON server, type `json-server --watch db.json` in your terminal.
