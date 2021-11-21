@@ -1,0 +1,49 @@
+{
+  "players": [
+    {
+      "name": "Mike Yin",
+      "gp": 25,
+      "goals": 80,
+      "assists": 40,
+      "points": 0,
+      "pm": -94,
+      "id": 1
+    },
+    {
+      "name": "Kogn Yang",
+      "gp": 55,
+      "goals": 180,
+      "assists": 90,
+      "points": 0,
+      "pm": 14,
+      "id": 2
+    },
+    {
+      "name": "Ricky Spanish",
+      "gp": 155,
+      "goals": 1180,
+      "assists": 190,
+      "points": 0,
+      "pm": 114,
+      "id": 3
+    },
+    {
+      "name": "Joey 2 Slice",
+      "gp": 120,
+      "goals": 280,
+      "assists": 290,
+      "points": 0,
+      "pm": -24,
+      "id": 4
+    },
+    {
+      "name": "Water Boy",
+      "gp": 5,
+      "goals": 8,
+      "assists": 4,
+      "points": 0,
+      "pm": -194,
+      "id": 5
+    }
+  ]
+}
