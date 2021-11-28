@@ -1,27 +1,59 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Swedish Fish</h1>
 
-<h1>Swedish Fish</h1>
+    <button id="new-player-btn">Add New Player</button>
+    <button id="delete-button" style="display: none">Delete</button>
+    <button id="cancel-button" style="display: none">Cancel</button>
 
-<table id="fish">
-  <tr>
-    <th>Name</th>
-    <th>Games Played</th>
-    <th>Goals</th>
-    <th>Assists</th>
-    <th>Points</th>
-    <th>+/-</th>
-</tr>
-</table>
+    <div id="main-container">
+      <form id="new-player-form" style="display: none">
+        <label for="name">Player Name:</label>
+        <input type="text" name="name" value="" /><br />
+        <label for="games-played">Games Played:</label>
+        <input type="text" name="games-played" value="" /><br />
+        <label for="goals">Goals:</label>
+        <input type="text" name="goals" value="" /><br />
+        <label for="assists">Assists:</label>
+        <input type="text" name="assists" value="" /><br />
+        <label for="pm">Plus Minus:</label>
+        <input type="text" name="pm" value="" /><br />
+        <input type="submit" value="Create" />
+      </form>
 
-<script src="index.js"></script>
+      <form id="edit-player-form" style="display: none">
+        <label for="name">Player Name:</label>
+        <input type="text" name="name" value="" /><br />
+        <label for="games-played">Games Played:</label>
+        <input type="text" name="games-played" value="" /><br />
+        <label for="goals">Goals:</label>
+        <input type="text" name="goals" value="" /><br />
+        <label for="assists">Assists:</label>
+        <input type="text" name="assists" value="" /><br />
+        <label for="pm">Plus Minus:</label>
+        <input type="text" name="pm" value="" /><br />
+        <input type="submit" value="Edit" />
+      </form>
 
-</body>
+      <table id="fish">
+        <tr>
+          <th>Name</th>
+          <th>Games Played</th>
+          <th>Goals</th>
+          <th>Assists</th>
+          <th>Points</th>
+          <th>+/-</th>
+        </tr>
+      </table>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
