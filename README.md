@@ -23,3 +23,4 @@ SOME USEFUL VS CODE EXTENSIONS I USE:
 - Prettier
 - Live Server
 - Bracket Pair Colorizer 2
+- EsLint
