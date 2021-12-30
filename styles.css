@@ -16,7 +16,7 @@
 }
 
 #fish tr:hover {
-  background-color: #ddd;
+  background-color:  #f3d1f5;
   cursor: pointer;
 }
 
@@ -27,9 +27,11 @@
   background-color: #d708df;
   color: white;
 }
+
 h1 {
   text-align: center;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -40,10 +42,25 @@ form {
   margin-left: 50px;
   margin-right: 50px;
 }
+
 button {
   margin: auto;
   display: flex;
   align-items: center;
   padding: none;
   margin-bottom: 10px;
+  background-color: #a404fa;
+  color: white;
+  height: 30px;
+  border-radius: 50px;
+  min-width: 100px;
+  justify-content: center;
+}
+
+.input-button {
+  background-color: #a404fa;
+  color: white;
+  height: 30px;
+  border-radius: 50px;
+  min-width: 100px;
 }
